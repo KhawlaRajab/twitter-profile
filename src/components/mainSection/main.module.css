@@ -1,0 +1,127 @@
+*{
+    padding:0;
+    margin: 0;
+    color: white;
+}
+
+.mainContainer{
+    background-color: black;
+    /* height: 100vh; */
+    width:60%;
+    float: left;
+    padding-left: 10px;
+    border: 1px solid snow;
+
+}
+
+.header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.icon{
+    font-size: 20px;
+    padding-right:20px ;
+}
+
+.headerContent p{
+    color: gray;
+}
+
+.Profile{
+    height: 170px; 
+    position: relative;
+}
+
+.profileHeader{
+    height: 70px;
+}
+
+.profilePic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:solid black;
+    overflow: hidden;     
+    position: absolute;
+    top:20%;
+    margin-left: 20px;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content:end;
+    margin-top: 5px;
+}
+
+.sideAction{
+    margin-right: 10px;
+    border:1px solid white;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.sideActionDiv,.followAcoount button{
+    width: 60px;
+    font-size: 10px;
+    height: 17px;
+    border-radius: 30px;
+    border:1px solid white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.postContainer{
+    border-bottom: 1px solid snow;
+    border-top:1px solid snow ;
+    padding-bottom: 15px;
+}
+
+.cont{
+     margin-top: 15px;
+    display: flex;
+    /* border-bottom: 1px solid snow; */
+    justify-content: space-around;
+}
+
+.Acoount{
+    position: relative;
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.followButton{
+    background-color: white;
+    color: black;
+    height: 25px;
+    font-size: 15px;
+    padding:0;
+    position: absolute;
+    right: 20px;
+    top:12px;
+    border-radius: 50px;
+    width: 70px;
+    height:30px;
+    text-align: center;
+}
+
+.aboutAcoount{
+  margin-left: 10px;
+  background-color: aqua;
+}
