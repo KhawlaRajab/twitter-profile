@@ -1,0 +1,38 @@
+
+.Rightcontainer{
+    background-color: black;
+    height: 100vh;
+    float: left;
+    width: 24%;
+}
+
+input {
+  width: 85%;
+  height: 40px;
+  border-radius: 50px;
+  background-color: rgb(48, 47, 47);
+  padding-left:10px ;
+  border: none;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+.youMightLike,.trendContainer{
+  background-color: rgb(48, 47, 47);
+  margin-left: 20px;
+  width: 85%;
+  border-radius: 10px;
+}
+
+.trend{
+  padding: 15px;
+}
+
+.trend h3{
+  font-size: 15px;
+}
+
+.trend p{
+  color: gray;
+}
+
